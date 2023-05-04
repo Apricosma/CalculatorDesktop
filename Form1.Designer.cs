@@ -49,18 +49,21 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.resultBox = new System.Windows.Forms.TextBox();
             this.operationBox = new System.Windows.Forms.TextBox();
+            this.closeButon = new System.Windows.Forms.Button();
+            this.minimizeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSeven
             // 
-            this.buttonSeven.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonSeven.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonSeven.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonSeven.FlatAppearance.BorderSize = 0;
             this.buttonSeven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSeven.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSeven.ForeColor = System.Drawing.Color.White;
-            this.buttonSeven.Location = new System.Drawing.Point(7, 191);
+            this.buttonSeven.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSeven.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonSeven.Location = new System.Drawing.Point(7, 194);
             this.buttonSeven.Name = "buttonSeven";
-            this.buttonSeven.Size = new System.Drawing.Size(83, 43);
+            this.buttonSeven.Size = new System.Drawing.Size(78, 40);
             this.buttonSeven.TabIndex = 0;
             this.buttonSeven.Text = "7";
             this.buttonSeven.UseVisualStyleBackColor = false;
@@ -68,14 +71,15 @@
             // 
             // buttonFour
             // 
-            this.buttonFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonFour.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonFour.FlatAppearance.BorderSize = 0;
             this.buttonFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFour.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonFour.ForeColor = System.Drawing.Color.White;
-            this.buttonFour.Location = new System.Drawing.Point(7, 236);
+            this.buttonFour.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonFour.Location = new System.Drawing.Point(7, 239);
             this.buttonFour.Name = "buttonFour";
-            this.buttonFour.Size = new System.Drawing.Size(83, 43);
+            this.buttonFour.Size = new System.Drawing.Size(78, 40);
             this.buttonFour.TabIndex = 0;
             this.buttonFour.Text = "4";
             this.buttonFour.UseVisualStyleBackColor = false;
@@ -83,14 +87,15 @@
             // 
             // buttonOne
             // 
-            this.buttonOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonOne.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonOne.FlatAppearance.BorderSize = 0;
             this.buttonOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOne.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonOne.ForeColor = System.Drawing.Color.White;
-            this.buttonOne.Location = new System.Drawing.Point(7, 281);
+            this.buttonOne.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonOne.Location = new System.Drawing.Point(7, 284);
             this.buttonOne.Name = "buttonOne";
-            this.buttonOne.Size = new System.Drawing.Size(83, 43);
+            this.buttonOne.Size = new System.Drawing.Size(78, 40);
             this.buttonOne.TabIndex = 0;
             this.buttonOne.Text = "1";
             this.buttonOne.UseVisualStyleBackColor = false;
@@ -98,14 +103,15 @@
             // 
             // buttonEight
             // 
-            this.buttonEight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonEight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonEight.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonEight.FlatAppearance.BorderSize = 0;
             this.buttonEight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEight.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonEight.ForeColor = System.Drawing.Color.White;
-            this.buttonEight.Location = new System.Drawing.Point(93, 191);
+            this.buttonEight.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonEight.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonEight.Location = new System.Drawing.Point(93, 194);
             this.buttonEight.Name = "buttonEight";
-            this.buttonEight.Size = new System.Drawing.Size(83, 43);
+            this.buttonEight.Size = new System.Drawing.Size(78, 40);
             this.buttonEight.TabIndex = 0;
             this.buttonEight.Text = "8";
             this.buttonEight.UseVisualStyleBackColor = false;
@@ -113,14 +119,15 @@
             // 
             // buttonFive
             // 
-            this.buttonFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonFive.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonFive.FlatAppearance.BorderSize = 0;
             this.buttonFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFive.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonFive.ForeColor = System.Drawing.Color.White;
-            this.buttonFive.Location = new System.Drawing.Point(93, 236);
+            this.buttonFive.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonFive.Location = new System.Drawing.Point(93, 239);
             this.buttonFive.Name = "buttonFive";
-            this.buttonFive.Size = new System.Drawing.Size(83, 43);
+            this.buttonFive.Size = new System.Drawing.Size(78, 40);
             this.buttonFive.TabIndex = 0;
             this.buttonFive.Text = "5";
             this.buttonFive.UseVisualStyleBackColor = false;
@@ -128,14 +135,15 @@
             // 
             // buttonTwo
             // 
-            this.buttonTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonTwo.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonTwo.FlatAppearance.BorderSize = 0;
             this.buttonTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonTwo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonTwo.ForeColor = System.Drawing.Color.White;
-            this.buttonTwo.Location = new System.Drawing.Point(93, 281);
+            this.buttonTwo.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonTwo.Location = new System.Drawing.Point(93, 284);
             this.buttonTwo.Name = "buttonTwo";
-            this.buttonTwo.Size = new System.Drawing.Size(83, 43);
+            this.buttonTwo.Size = new System.Drawing.Size(78, 40);
             this.buttonTwo.TabIndex = 0;
             this.buttonTwo.Text = "2";
             this.buttonTwo.UseVisualStyleBackColor = false;
@@ -143,14 +151,15 @@
             // 
             // buttonNine
             // 
-            this.buttonNine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonNine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonNine.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonNine.FlatAppearance.BorderSize = 0;
             this.buttonNine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNine.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonNine.ForeColor = System.Drawing.Color.White;
-            this.buttonNine.Location = new System.Drawing.Point(179, 191);
+            this.buttonNine.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonNine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonNine.Location = new System.Drawing.Point(179, 194);
             this.buttonNine.Name = "buttonNine";
-            this.buttonNine.Size = new System.Drawing.Size(83, 43);
+            this.buttonNine.Size = new System.Drawing.Size(78, 40);
             this.buttonNine.TabIndex = 0;
             this.buttonNine.Text = "9";
             this.buttonNine.UseVisualStyleBackColor = false;
@@ -158,14 +167,15 @@
             // 
             // buttonSix
             // 
-            this.buttonSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonSix.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonSix.FlatAppearance.BorderSize = 0;
             this.buttonSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSix.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSix.ForeColor = System.Drawing.Color.White;
-            this.buttonSix.Location = new System.Drawing.Point(179, 236);
+            this.buttonSix.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonSix.Location = new System.Drawing.Point(179, 239);
             this.buttonSix.Name = "buttonSix";
-            this.buttonSix.Size = new System.Drawing.Size(83, 43);
+            this.buttonSix.Size = new System.Drawing.Size(78, 40);
             this.buttonSix.TabIndex = 0;
             this.buttonSix.Text = "6";
             this.buttonSix.UseVisualStyleBackColor = false;
@@ -173,14 +183,15 @@
             // 
             // buttonThree
             // 
-            this.buttonThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonThree.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonThree.FlatAppearance.BorderSize = 0;
             this.buttonThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonThree.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonThree.ForeColor = System.Drawing.Color.White;
-            this.buttonThree.Location = new System.Drawing.Point(179, 281);
+            this.buttonThree.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonThree.Location = new System.Drawing.Point(179, 284);
             this.buttonThree.Name = "buttonThree";
-            this.buttonThree.Size = new System.Drawing.Size(83, 43);
+            this.buttonThree.Size = new System.Drawing.Size(78, 40);
             this.buttonThree.TabIndex = 0;
             this.buttonThree.Text = "3";
             this.buttonThree.UseVisualStyleBackColor = false;
@@ -188,14 +199,15 @@
             // 
             // buttonZero
             // 
-            this.buttonZero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonZero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonZero.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonZero.FlatAppearance.BorderSize = 0;
             this.buttonZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonZero.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonZero.ForeColor = System.Drawing.Color.White;
-            this.buttonZero.Location = new System.Drawing.Point(93, 326);
+            this.buttonZero.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonZero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonZero.Location = new System.Drawing.Point(93, 329);
             this.buttonZero.Name = "buttonZero";
-            this.buttonZero.Size = new System.Drawing.Size(83, 43);
+            this.buttonZero.Size = new System.Drawing.Size(78, 40);
             this.buttonZero.TabIndex = 0;
             this.buttonZero.Text = "0";
             this.buttonZero.UseVisualStyleBackColor = false;
@@ -203,14 +215,15 @@
             // 
             // buttonDecimal
             // 
-            this.buttonDecimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonDecimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonDecimal.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonDecimal.FlatAppearance.BorderSize = 0;
             this.buttonDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDecimal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonDecimal.ForeColor = System.Drawing.Color.White;
-            this.buttonDecimal.Location = new System.Drawing.Point(179, 326);
+            this.buttonDecimal.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonDecimal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonDecimal.Location = new System.Drawing.Point(179, 329);
             this.buttonDecimal.Name = "buttonDecimal";
-            this.buttonDecimal.Size = new System.Drawing.Size(83, 43);
+            this.buttonDecimal.Size = new System.Drawing.Size(78, 40);
             this.buttonDecimal.TabIndex = 0;
             this.buttonDecimal.Text = ".";
             this.buttonDecimal.UseVisualStyleBackColor = false;
@@ -218,14 +231,15 @@
             // 
             // buttonMultiply
             // 
-            this.buttonMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonMultiply.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonMultiply.FlatAppearance.BorderSize = 0;
             this.buttonMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMultiply.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonMultiply.ForeColor = System.Drawing.Color.White;
-            this.buttonMultiply.Location = new System.Drawing.Point(265, 191);
+            this.buttonMultiply.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonMultiply.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonMultiply.Location = new System.Drawing.Point(265, 194);
             this.buttonMultiply.Name = "buttonMultiply";
-            this.buttonMultiply.Size = new System.Drawing.Size(83, 43);
+            this.buttonMultiply.Size = new System.Drawing.Size(78, 40);
             this.buttonMultiply.TabIndex = 0;
             this.buttonMultiply.Text = "*";
             this.buttonMultiply.UseVisualStyleBackColor = false;
@@ -233,14 +247,15 @@
             // 
             // buttonSubtract
             // 
-            this.buttonSubtract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonSubtract.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonSubtract.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonSubtract.FlatAppearance.BorderSize = 0;
             this.buttonSubtract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSubtract.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSubtract.ForeColor = System.Drawing.Color.White;
-            this.buttonSubtract.Location = new System.Drawing.Point(265, 236);
+            this.buttonSubtract.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSubtract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonSubtract.Location = new System.Drawing.Point(265, 239);
             this.buttonSubtract.Name = "buttonSubtract";
-            this.buttonSubtract.Size = new System.Drawing.Size(83, 43);
+            this.buttonSubtract.Size = new System.Drawing.Size(78, 40);
             this.buttonSubtract.TabIndex = 0;
             this.buttonSubtract.Text = "-";
             this.buttonSubtract.UseVisualStyleBackColor = false;
@@ -248,14 +263,15 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonAdd.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonAdd.FlatAppearance.BorderSize = 0;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAdd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonAdd.ForeColor = System.Drawing.Color.White;
-            this.buttonAdd.Location = new System.Drawing.Point(265, 281);
+            this.buttonAdd.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonAdd.Location = new System.Drawing.Point(265, 284);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(83, 43);
+            this.buttonAdd.Size = new System.Drawing.Size(78, 40);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "+";
             this.buttonAdd.UseVisualStyleBackColor = false;
@@ -263,14 +279,15 @@
             // 
             // buttonEqual
             // 
-            this.buttonEqual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonEqual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonEqual.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonEqual.FlatAppearance.BorderSize = 0;
             this.buttonEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEqual.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonEqual.ForeColor = System.Drawing.Color.White;
-            this.buttonEqual.Location = new System.Drawing.Point(265, 326);
+            this.buttonEqual.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonEqual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonEqual.Location = new System.Drawing.Point(265, 329);
             this.buttonEqual.Name = "buttonEqual";
-            this.buttonEqual.Size = new System.Drawing.Size(83, 43);
+            this.buttonEqual.Size = new System.Drawing.Size(78, 40);
             this.buttonEqual.TabIndex = 0;
             this.buttonEqual.Text = "=";
             this.buttonEqual.UseVisualStyleBackColor = false;
@@ -278,14 +295,15 @@
             // 
             // buttonDivide
             // 
-            this.buttonDivide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonDivide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonDivide.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonDivide.FlatAppearance.BorderSize = 0;
             this.buttonDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDivide.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonDivide.ForeColor = System.Drawing.Color.White;
-            this.buttonDivide.Location = new System.Drawing.Point(265, 145);
+            this.buttonDivide.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonDivide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonDivide.Location = new System.Drawing.Point(265, 148);
             this.buttonDivide.Name = "buttonDivide";
-            this.buttonDivide.Size = new System.Drawing.Size(83, 43);
+            this.buttonDivide.Size = new System.Drawing.Size(78, 40);
             this.buttonDivide.TabIndex = 0;
             this.buttonDivide.Text = "/";
             this.buttonDivide.UseVisualStyleBackColor = false;
@@ -293,14 +311,15 @@
             // 
             // buttonDEC
             // 
-            this.buttonDEC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonDEC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonDEC.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonDEC.FlatAppearance.BorderSize = 0;
             this.buttonDEC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDEC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonDEC.ForeColor = System.Drawing.Color.White;
-            this.buttonDEC.Location = new System.Drawing.Point(93, 145);
+            this.buttonDEC.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonDEC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonDEC.Location = new System.Drawing.Point(93, 148);
             this.buttonDEC.Name = "buttonDEC";
-            this.buttonDEC.Size = new System.Drawing.Size(83, 43);
+            this.buttonDEC.Size = new System.Drawing.Size(78, 40);
             this.buttonDEC.TabIndex = 0;
             this.buttonDEC.Text = "DEC";
             this.buttonDEC.UseVisualStyleBackColor = false;
@@ -308,14 +327,15 @@
             // 
             // buttonBin
             // 
-            this.buttonBin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonBin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonBin.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonBin.FlatAppearance.BorderSize = 0;
             this.buttonBin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonBin.ForeColor = System.Drawing.Color.White;
-            this.buttonBin.Location = new System.Drawing.Point(7, 145);
+            this.buttonBin.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonBin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonBin.Location = new System.Drawing.Point(7, 148);
             this.buttonBin.Name = "buttonBin";
-            this.buttonBin.Size = new System.Drawing.Size(83, 43);
+            this.buttonBin.Size = new System.Drawing.Size(78, 40);
             this.buttonBin.TabIndex = 0;
             this.buttonBin.Text = "BIN";
             this.buttonBin.UseVisualStyleBackColor = false;
@@ -323,14 +343,15 @@
             // 
             // buttonClear
             // 
-            this.buttonClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.buttonClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonClear.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.buttonClear.FlatAppearance.BorderSize = 0;
             this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonClear.ForeColor = System.Drawing.Color.White;
-            this.buttonClear.Location = new System.Drawing.Point(179, 145);
+            this.buttonClear.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonClear.Location = new System.Drawing.Point(179, 148);
             this.buttonClear.Name = "buttonClear";
-            this.buttonClear.Size = new System.Drawing.Size(83, 43);
+            this.buttonClear.Size = new System.Drawing.Size(78, 40);
             this.buttonClear.TabIndex = 0;
             this.buttonClear.Text = "C";
             this.buttonClear.UseVisualStyleBackColor = false;
@@ -338,36 +359,72 @@
             // 
             // resultBox
             // 
-            this.resultBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.resultBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
             this.resultBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.resultBox.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.resultBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.resultBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.resultBox.Location = new System.Drawing.Point(7, 80);
+            this.resultBox.MaxLength = 19;
             this.resultBox.Name = "resultBox";
-            this.resultBox.Size = new System.Drawing.Size(341, 43);
+            this.resultBox.ReadOnly = true;
+            this.resultBox.ShortcutsEnabled = false;
+            this.resultBox.Size = new System.Drawing.Size(339, 43);
             this.resultBox.TabIndex = 2;
             this.resultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.resultBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // operationBox
             // 
-            this.operationBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.operationBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
             this.operationBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.operationBox.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.operationBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.operationBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.operationBox.Location = new System.Drawing.Point(118, 42);
             this.operationBox.Name = "operationBox";
+            this.operationBox.ReadOnly = true;
             this.operationBox.Size = new System.Drawing.Size(228, 29);
             this.operationBox.TabIndex = 3;
             this.operationBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.operationBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
+            // closeButon
+            // 
+            this.closeButon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
+            this.closeButon.FlatAppearance.BorderSize = 0;
+            this.closeButon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeButon.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.closeButon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(0)))), ((int)(((byte)(146)))));
+            this.closeButon.Location = new System.Drawing.Point(308, 1);
+            this.closeButon.Name = "closeButon";
+            this.closeButon.Size = new System.Drawing.Size(46, 34);
+            this.closeButon.TabIndex = 4;
+            this.closeButon.Text = "X";
+            this.closeButon.UseVisualStyleBackColor = false;
+            this.closeButon.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // minimizeButton
+            // 
+            this.minimizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
+            this.minimizeButton.FlatAppearance.BorderSize = 0;
+            this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.minimizeButton.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.minimizeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(0)))), ((int)(((byte)(146)))));
+            this.minimizeButton.Location = new System.Drawing.Point(260, -17);
+            this.minimizeButton.Name = "minimizeButton";
+            this.minimizeButton.Size = new System.Drawing.Size(46, 52);
+            this.minimizeButton.TabIndex = 4;
+            this.minimizeButton.Text = "_";
+            this.minimizeButton.UseVisualStyleBackColor = false;
+            this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(355, 381);
+            this.Controls.Add(this.minimizeButton);
+            this.Controls.Add(this.closeButon);
             this.Controls.Add(this.operationBox);
             this.Controls.Add(this.resultBox);
             this.Controls.Add(this.buttonEqual);
@@ -389,7 +446,10 @@
             this.Controls.Add(this.buttonEight);
             this.Controls.Add(this.buttonFour);
             this.Controls.Add(this.buttonSeven);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.Opacity = 0.97D;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -420,5 +480,7 @@
         private Button buttonClear;
         private TextBox resultBox;
         private TextBox operationBox;
+        private Button closeButon;
+        private Button minimizeButton;
     }
 }

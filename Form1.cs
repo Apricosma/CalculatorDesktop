@@ -1,6 +1,9 @@
 using System.Data;
+using System.Drawing.Drawing2D;
 using System.Drawing.Text;
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 namespace CalculatorDesktop
 {
@@ -10,9 +13,42 @@ namespace CalculatorDesktop
         private string storedOperator = "";
         private string storedOperand = "";
         private string storedResult = "";
+
         public Form1()
         {
             InitializeComponent();
+            this.Text = "Calculator";
+            this.FormBorderStyle = FormBorderStyle.None;
+
+            string backColor = "#000A1B";
+            Color customColor = ColorTranslator.FromHtml(backColor);
+
+            // Dragging
+            Panel topPanel = new Panel();
+            topPanel.Dock = DockStyle.Top;
+            topPanel.Height = 30;
+            topPanel.BackColor = customColor;
+            this.Controls.Add(topPanel);
+
+            
+
+            [DllImport("user32.dll")]
+            static extern bool ReleaseCapture();
+
+            [DllImport("user32.dll")]
+            static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
+            const int WM_NCLBUTTONDOWN = 0x00A1;
+            const int HT_CAPTION = 0x02;
+
+            topPanel.MouseDown += (sender, e) =>
+            {
+                if (e.Button == MouseButtons.Left)
+                {
+                    ReleaseCapture();
+                    SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+                }
+            };
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -114,6 +150,16 @@ namespace CalculatorDesktop
             resultBox.Text = result.ToString();
             storedResult = result.ToString();
             operationBox.Text = expression;
+        }
+
+        private void minimizeButton_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
