@@ -163,7 +163,7 @@ namespace CalculatorDesktop
                 operationBox.Text = expression;
             } catch(Exception ex)
             {
-                resultBox.Text = "ERROR: Num too large";
+                resultBox.Text = "ERROR: Num Too Large";
             }
 
             
