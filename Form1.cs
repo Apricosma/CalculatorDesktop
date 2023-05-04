@@ -4,6 +4,7 @@ using System.Drawing.Text;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Numerics;
 
 namespace CalculatorDesktop
 {
@@ -20,17 +21,12 @@ namespace CalculatorDesktop
             this.Text = "Calculator";
             this.FormBorderStyle = FormBorderStyle.None;
 
-            string backColor = "#000A1B";
-            Color customColor = ColorTranslator.FromHtml(backColor);
-
-            // Dragging
+            // Dragging and panel style
             Panel topPanel = new Panel();
             topPanel.Dock = DockStyle.Top;
-            topPanel.Height = 30;
-            topPanel.BackColor = customColor;
+            topPanel.Height = 34;
+            topPanel.BackColor = Color.Black;
             this.Controls.Add(topPanel);
-
-            
 
             [DllImport("user32.dll")]
             static extern bool ReleaseCapture();
@@ -118,19 +114,32 @@ namespace CalculatorDesktop
 
         private void operandButton_Click(object sender, EventArgs e)
         {
-            
+
             Button pressedButton = (Button)sender;
-            storedOperator = pressedButton.Text;
-            if (storedResult == "")
+            string newOperator = pressedButton.Text;
+
+            // replacing stored operator with new one when an operator is pressed after another
+            if (operatorPressed && storedOperator != "" && newOperator != "=")
             {
-                operationBox.Text += resultBox.Text += " " + pressedButton.Text + " ";
-            } else
-            {
-                operationBox.Text = storedResult + " " + storedOperator;
+                operationBox.Text = operationBox.Text.Remove(operationBox.Text.Length - 2, 2) + newOperator + " ";
+                storedOperator = newOperator;
             }
-            
+            else
+            {
+                storedOperator = newOperator;
+                if (storedResult == "")
+                {
+                    operationBox.Text += resultBox.Text + " " + newOperator + " ";
+                }
+                else
+                {
+                    resultBox.Text = storedResult.ToString();
+                    operationBox.Text = storedResult + " " + storedOperator + " ";
+                    storedResult = "";
+                }
+            }
+
             operatorPressed = true;
-            
         }
 
         private void equalsButton_Click(object sender, EventArgs e)
@@ -145,11 +154,19 @@ namespace CalculatorDesktop
                 expression = storedResult + " " + storedOperator + " " + storedOperand;
             }
 
-            DataTable table = new DataTable();
-            var result = table.Compute(expression, "");
-            resultBox.Text = result.ToString();
-            storedResult = result.ToString();
-            operationBox.Text = expression;
+            try
+            {
+                DataTable table = new DataTable();
+                var result = table.Compute(expression, "");
+                resultBox.Text = result.ToString();
+                storedResult = result.ToString();
+                operationBox.Text = expression;
+            } catch(Exception ex)
+            {
+                resultBox.Text = "ERROR: Num too large";
+            }
+
+            
         }
 
         private void minimizeButton_Click(object sender, EventArgs e)

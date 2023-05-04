@@ -236,10 +236,10 @@
             this.buttonMultiply.FlatAppearance.BorderSize = 0;
             this.buttonMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMultiply.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonMultiply.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonMultiply.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonMultiply.Location = new System.Drawing.Point(265, 194);
             this.buttonMultiply.Name = "buttonMultiply";
-            this.buttonMultiply.Size = new System.Drawing.Size(78, 40);
+            this.buttonMultiply.Size = new System.Drawing.Size(74, 40);
             this.buttonMultiply.TabIndex = 0;
             this.buttonMultiply.Text = "*";
             this.buttonMultiply.UseVisualStyleBackColor = false;
@@ -252,10 +252,10 @@
             this.buttonSubtract.FlatAppearance.BorderSize = 0;
             this.buttonSubtract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSubtract.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonSubtract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonSubtract.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonSubtract.Location = new System.Drawing.Point(265, 239);
             this.buttonSubtract.Name = "buttonSubtract";
-            this.buttonSubtract.Size = new System.Drawing.Size(78, 40);
+            this.buttonSubtract.Size = new System.Drawing.Size(74, 40);
             this.buttonSubtract.TabIndex = 0;
             this.buttonSubtract.Text = "-";
             this.buttonSubtract.UseVisualStyleBackColor = false;
@@ -268,10 +268,10 @@
             this.buttonAdd.FlatAppearance.BorderSize = 0;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAdd.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonAdd.Location = new System.Drawing.Point(265, 284);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(78, 40);
+            this.buttonAdd.Size = new System.Drawing.Size(74, 40);
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "+";
             this.buttonAdd.UseVisualStyleBackColor = false;
@@ -284,10 +284,10 @@
             this.buttonEqual.FlatAppearance.BorderSize = 0;
             this.buttonEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEqual.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonEqual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonEqual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonEqual.Location = new System.Drawing.Point(265, 329);
             this.buttonEqual.Name = "buttonEqual";
-            this.buttonEqual.Size = new System.Drawing.Size(78, 40);
+            this.buttonEqual.Size = new System.Drawing.Size(74, 40);
             this.buttonEqual.TabIndex = 0;
             this.buttonEqual.Text = "=";
             this.buttonEqual.UseVisualStyleBackColor = false;
@@ -300,10 +300,10 @@
             this.buttonDivide.FlatAppearance.BorderSize = 0;
             this.buttonDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDivide.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonDivide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonDivide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonDivide.Location = new System.Drawing.Point(265, 148);
             this.buttonDivide.Name = "buttonDivide";
-            this.buttonDivide.Size = new System.Drawing.Size(78, 40);
+            this.buttonDivide.Size = new System.Drawing.Size(74, 40);
             this.buttonDivide.TabIndex = 0;
             this.buttonDivide.Text = "/";
             this.buttonDivide.UseVisualStyleBackColor = false;
@@ -316,7 +316,7 @@
             this.buttonDEC.FlatAppearance.BorderSize = 0;
             this.buttonDEC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDEC.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonDEC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonDEC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonDEC.Location = new System.Drawing.Point(93, 148);
             this.buttonDEC.Name = "buttonDEC";
             this.buttonDEC.Size = new System.Drawing.Size(78, 40);
@@ -332,10 +332,10 @@
             this.buttonBin.FlatAppearance.BorderSize = 0;
             this.buttonBin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonBin.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonBin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonBin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonBin.Location = new System.Drawing.Point(7, 148);
             this.buttonBin.Name = "buttonBin";
-            this.buttonBin.Size = new System.Drawing.Size(78, 40);
+            this.buttonBin.Size = new System.Drawing.Size(80, 40);
             this.buttonBin.TabIndex = 0;
             this.buttonBin.Text = "BIN";
             this.buttonBin.UseVisualStyleBackColor = false;
@@ -348,7 +348,7 @@
             this.buttonClear.FlatAppearance.BorderSize = 0;
             this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClear.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.buttonClear.Location = new System.Drawing.Point(179, 148);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(78, 40);
@@ -368,7 +368,7 @@
             this.resultBox.Name = "resultBox";
             this.resultBox.ReadOnly = true;
             this.resultBox.ShortcutsEnabled = false;
-            this.resultBox.Size = new System.Drawing.Size(339, 43);
+            this.resultBox.Size = new System.Drawing.Size(332, 43);
             this.resultBox.TabIndex = 2;
             this.resultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.resultBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -382,14 +382,14 @@
             this.operationBox.Location = new System.Drawing.Point(118, 42);
             this.operationBox.Name = "operationBox";
             this.operationBox.ReadOnly = true;
-            this.operationBox.Size = new System.Drawing.Size(228, 29);
+            this.operationBox.Size = new System.Drawing.Size(221, 29);
             this.operationBox.TabIndex = 3;
             this.operationBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.operationBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // closeButon
             // 
-            this.closeButon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
+            this.closeButon.BackColor = System.Drawing.Color.Black;
             this.closeButon.FlatAppearance.BorderSize = 0;
             this.closeButon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButon.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -404,7 +404,7 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
+            this.minimizeButton.BackColor = System.Drawing.Color.Black;
             this.minimizeButton.FlatAppearance.BorderSize = 0;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -419,10 +419,11 @@
             // 
             // Form1
             // 
+            this.AccessibleName = "Calculator Application";
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(11)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(355, 381);
+            this.ClientSize = new System.Drawing.Size(348, 381);
             this.Controls.Add(this.minimizeButton);
             this.Controls.Add(this.closeButon);
             this.Controls.Add(this.operationBox);
@@ -446,10 +447,11 @@
             this.Controls.Add(this.buttonEight);
             this.Controls.Add(this.buttonFour);
             this.Controls.Add(this.buttonSeven);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(0)))), ((int)(((byte)(196)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Opacity = 0.97D;
+            this.Opacity = 0.95D;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
