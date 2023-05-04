@@ -47,8 +47,8 @@
             this.buttonDEC = new System.Windows.Forms.Button();
             this.buttonBin = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
-            this.operandLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.resultBox = new System.Windows.Forms.TextBox();
+            this.operationBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonSeven
@@ -229,7 +229,7 @@
             this.buttonMultiply.TabIndex = 0;
             this.buttonMultiply.Text = "*";
             this.buttonMultiply.UseVisualStyleBackColor = false;
-            this.buttonMultiply.Click += new System.EventHandler(this.buttonMultiply_Click);
+            this.buttonMultiply.Click += new System.EventHandler(this.operandButton_Click);
             // 
             // buttonSubtract
             // 
@@ -244,7 +244,7 @@
             this.buttonSubtract.TabIndex = 0;
             this.buttonSubtract.Text = "-";
             this.buttonSubtract.UseVisualStyleBackColor = false;
-            this.buttonSubtract.Click += new System.EventHandler(this.buttonSubtract_Click);
+            this.buttonSubtract.Click += new System.EventHandler(this.operandButton_Click);
             // 
             // buttonAdd
             // 
@@ -259,7 +259,7 @@
             this.buttonAdd.TabIndex = 0;
             this.buttonAdd.Text = "+";
             this.buttonAdd.UseVisualStyleBackColor = false;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            this.buttonAdd.Click += new System.EventHandler(this.operandButton_Click);
             // 
             // buttonEqual
             // 
@@ -274,7 +274,7 @@
             this.buttonEqual.TabIndex = 0;
             this.buttonEqual.Text = "=";
             this.buttonEqual.UseVisualStyleBackColor = false;
-            this.buttonEqual.Click += new System.EventHandler(this.buttonEqual_Click);
+            this.buttonEqual.Click += new System.EventHandler(this.equalsButton_Click);
             // 
             // buttonDivide
             // 
@@ -289,7 +289,7 @@
             this.buttonDivide.TabIndex = 0;
             this.buttonDivide.Text = "/";
             this.buttonDivide.UseVisualStyleBackColor = false;
-            this.buttonDivide.Click += new System.EventHandler(this.buttonDivide_Click);
+            this.buttonDivide.Click += new System.EventHandler(this.operandButton_Click);
             // 
             // buttonDEC
             // 
@@ -336,31 +336,31 @@
             this.buttonClear.UseVisualStyleBackColor = false;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
-            // operandLabel
+            // resultBox
             // 
-            this.operandLabel.AutoSize = true;
-            this.operandLabel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.operandLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.operandLabel.Location = new System.Drawing.Point(228, 32);
-            this.operandLabel.Name = "operandLabel";
-            this.operandLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.operandLabel.Size = new System.Drawing.Size(120, 28);
-            this.operandLabel.TabIndex = 1;
-            this.operandLabel.Text = "hello testing";
-            this.operandLabel.Click += new System.EventHandler(this.operandLabel_Click);
+            this.resultBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
+            this.resultBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.resultBox.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.resultBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.resultBox.Location = new System.Drawing.Point(7, 80);
+            this.resultBox.Name = "resultBox";
+            this.resultBox.Size = new System.Drawing.Size(341, 43);
+            this.resultBox.TabIndex = 2;
+            this.resultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.resultBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox1
+            // operationBox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(7, 76);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(341, 63);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.operationBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.operationBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.operationBox.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.operationBox.ForeColor = System.Drawing.SystemColors.Control;
+            this.operationBox.Location = new System.Drawing.Point(118, 42);
+            this.operationBox.Name = "operationBox";
+            this.operationBox.Size = new System.Drawing.Size(228, 29);
+            this.operationBox.TabIndex = 3;
+            this.operationBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.operationBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // Form1
             // 
@@ -368,8 +368,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.ClientSize = new System.Drawing.Size(355, 381);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.operandLabel);
+            this.Controls.Add(this.operationBox);
+            this.Controls.Add(this.resultBox);
             this.Controls.Add(this.buttonEqual);
             this.Controls.Add(this.buttonDecimal);
             this.Controls.Add(this.buttonAdd);
@@ -418,7 +418,7 @@
         private Button buttonDEC;
         private Button buttonBin;
         private Button buttonClear;
-        private Label operandLabel;
-        private TextBox textBox1;
+        private TextBox resultBox;
+        private TextBox operationBox;
     }
 }
