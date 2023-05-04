@@ -49,7 +49,7 @@ namespace CalculatorDesktop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.AcceptButton = buttonEqual;
         }
 
         private void buttonClear_Click(object sender, EventArgs e)
@@ -177,6 +177,75 @@ namespace CalculatorDesktop
         private void closeButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            switch(e.KeyChar.ToString())
+            {
+                case "1":
+                    buttonOne.PerformClick();
+                    break;
+                case "2":
+                    buttonTwo.PerformClick();
+                    break;
+                case "3":
+                    buttonThree.PerformClick();
+                    break;
+                case "4":
+                    buttonFour.PerformClick();
+                    break;
+                case "5":
+                    buttonFive.PerformClick();
+                    break;
+                case "6":
+                    buttonSix.PerformClick();
+                    break;
+                case "7":
+                    buttonSeven.PerformClick();
+                    break;
+                case "8":
+                    buttonEight.PerformClick();
+                    break;
+                case "9":
+                    buttonNine.PerformClick();
+                    break;
+                case "0":
+                    buttonZero.PerformClick();
+                    break;
+                case "-":
+                    buttonSubtract.PerformClick();
+                    break;
+                case "+":
+                    buttonAdd.PerformClick();
+                    break;
+                case "*":
+                    buttonMultiply.PerformClick();
+                    break;
+                case "/":
+                    buttonDivide.PerformClick();
+                    break;
+                default:
+                    break;
+            }
+
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                buttonEqual.PerformClick();
+            }
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                buttonEqual.PerformClick();
+            }
+
+            if (e.KeyCode == Keys.Delete)
+            {
+                buttonClear.PerformClick();
+            }
         }
     }
 }
