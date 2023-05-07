@@ -18,16 +18,18 @@ namespace CalculatorDesktop
         public Form1()
         {
             InitializeComponent();
+
+            // Panel styling
             this.Text = "Calculator";
             this.FormBorderStyle = FormBorderStyle.None;
-
-            // Dragging and panel style
+            
             Panel topPanel = new Panel();
             topPanel.Dock = DockStyle.Top;
             topPanel.Height = 34;
             topPanel.BackColor = Color.Black;
             this.Controls.Add(topPanel);
 
+            // Windows API dragging
             [DllImport("user32.dll")]
             static extern bool ReleaseCapture();
 
@@ -72,6 +74,8 @@ namespace CalculatorDesktop
 
             string resultBinary = "";
 
+            // limiting output to 16 bit since I do not want to change the display
+            // to handle multi-line
             if (binaryNumber > 65536)
             {
                 resultBox.Text = "Error: Num too large";
@@ -118,16 +122,6 @@ namespace CalculatorDesktop
             }
 
             resultBox.Text = decimalValue.ToString();
-        }
-
-        private void operandLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void digitInput(object sender, EventArgs e)
@@ -209,7 +203,7 @@ namespace CalculatorDesktop
                 resultBox.Text = result.ToString();
                 storedResult = result.ToString();
                 operationBox.Text = expression;
-            } catch(Exception ex)
+            } catch(Exception)
             {
                 resultBox.Text = "ERROR: Num Too Large";
             }
@@ -294,6 +288,11 @@ namespace CalculatorDesktop
             {
                 buttonClear.PerformClick();
             }
+        }
+
+        private void buttonLOC_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

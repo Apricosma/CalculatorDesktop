@@ -51,6 +51,7 @@
             this.operationBox = new System.Windows.Forms.TextBox();
             this.closeButon = new System.Windows.Forms.Button();
             this.minimizeButton = new System.Windows.Forms.Button();
+            this.buttonLOC = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSeven
@@ -391,7 +392,7 @@
             this.resultBox.TabIndex = 2;
             this.resultBox.TabStop = false;
             this.resultBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.resultBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            //this.resultBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // operationBox
             // 
@@ -440,6 +441,23 @@
             this.minimizeButton.UseVisualStyleBackColor = false;
             this.minimizeButton.Click += new System.EventHandler(this.minimizeButton_Click);
             // 
+            // buttonLOC
+            // 
+            this.buttonLOC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(22)))), ((int)(((byte)(46)))));
+            this.buttonLOC.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.buttonLOC.FlatAppearance.BorderSize = 0;
+            this.buttonLOC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLOC.Font = new System.Drawing.Font("Bowlby One SC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonLOC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(170)))), ((int)(((byte)(179)))));
+            this.buttonLOC.Location = new System.Drawing.Point(7, 330);
+            this.buttonLOC.Name = "buttonLOC";
+            this.buttonLOC.Size = new System.Drawing.Size(78, 40);
+            this.buttonLOC.TabIndex = 0;
+            this.buttonLOC.TabStop = false;
+            this.buttonLOC.Text = "LOC";
+            this.buttonLOC.UseVisualStyleBackColor = false;
+            this.buttonLOC.Click += new System.EventHandler(this.buttonLOC_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.buttonEqual;
@@ -456,6 +474,7 @@
             this.Controls.Add(this.buttonDecimal);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.buttonThree);
+            this.Controls.Add(this.buttonLOC);
             this.Controls.Add(this.buttonZero);
             this.Controls.Add(this.buttonTwo);
             this.Controls.Add(this.buttonSubtract);
@@ -511,5 +530,6 @@
         private TextBox operationBox;
         private Button closeButon;
         private Button minimizeButton;
+        private Button buttonLOC;
     }
 }
