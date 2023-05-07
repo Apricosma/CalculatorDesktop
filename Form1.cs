@@ -64,12 +64,60 @@ namespace CalculatorDesktop
 
         private void buttonBin_Click(object sender, EventArgs e)
         {
+            if (!int.TryParse(resultBox.Text, out int binaryNumber) || binaryNumber < 0)
+            {
+                resultBox.Text = "Error: Incorrect input";
+                return;
+            }
 
+            string resultBinary = "";
+
+            if (binaryNumber > 65536)
+            {
+                resultBox.Text = "Error: Num too large";
+                return;
+            }
+
+            if (binaryNumber == 0)
+            {
+                resultBinary = "0";
+            } else
+            {
+                while (binaryNumber > 0)
+                {
+                    int remainder = binaryNumber % 2;
+                    resultBinary = remainder.ToString() + resultBinary;
+                    binaryNumber /= 2;
+                }
+            }
+
+            resultBox.Text = resultBinary;
         }
 
         private void buttonDEC_Click(object sender, EventArgs e)
         {
+            string bin = resultBox.Text;
+            int decimalValue = 0;
+            int baseValue = 1;
 
+            // See if the input is valid input by checking if there is anything other than 1 or 0
+            if (!bin.All(b => b == '0' || b == '1'))
+            {
+                resultBox.Text = "Error: Not Binary";
+                return;
+            }
+
+            for (int i = bin.Length - 1; i >= 0; i--)
+            {
+                if (bin[i] == '1')
+                {
+                    decimalValue += baseValue;
+                }
+
+                baseValue *= 2;
+            }
+
+            resultBox.Text = decimalValue.ToString();
         }
 
         private void operandLabel_Click(object sender, EventArgs e)
