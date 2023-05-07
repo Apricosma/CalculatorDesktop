@@ -407,7 +407,6 @@
             this.operationBox.TabIndex = 3;
             this.operationBox.TabStop = false;
             this.operationBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.operationBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // closeButon
             // 
